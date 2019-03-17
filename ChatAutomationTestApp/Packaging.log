@@ -1,0 +1,374 @@
+1397-12-26 07:30:23 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f7ff1b96650; archive(resolved)='<IDEArchive: 0x7f7feedc5200>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f7ff1b96650; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f7ff1bf94f0; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7feefbd460; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7ff0d57340; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fee828420; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fee8949a0; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7fed075420; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7feedbf6f0; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7feeda5cd0; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f7ff0d1cbc0; teamID='87Y6C8NVU7', teamName='Hamidreza Amouzegar', teamType='(null)', username='(null)', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f7feed96170; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='(null)'>
+	<IDEDistributionContext: 0x7f7fee9ae180; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f7fe951a760>', team='(null)'>
+	<IDEDistributionContext: 0x7f7fee89af60; archive = '<IDEArchive: 0x7f7feedc5200>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f7ff1b96650>
+1397-12-26 07:30:23 +0000  Processing step: IDEDistributionCreateDestRootStep
+1397-12-26 07:30:23 +0000  Processing step: IDEDistributionCopyItemStep
+1397-12-26 07:30:23 +0000  Running /usr/bin/ditto '-V' '/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app'
+1397-12-26 07:30:23 +0000  >>> Copying /Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app 
+1397-12-26 07:30:23 +0000  copying file ./_CodeSignature/CodeResources ... 
+1397-12-26 07:30:23 +0000  6553 bytes for ./_CodeSignature/CodeResources
+1397-12-26 07:30:23 +0000  copying file ./ChatAutomationTestApp ... 
+1397-12-26 07:30:23 +0000  1089568 bytes for ./ChatAutomationTestApp
+1397-12-26 07:30:23 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1397-12-26 07:30:23 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+1397-12-26 07:30:23 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+1397-12-26 07:30:23 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+1397-12-26 07:30:23 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+1397-12-26 07:30:23 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+1397-12-26 07:30:23 +0000  464000 bytes for ./Frameworks/libswiftCoreImage.dylib
+1397-12-26 07:30:23 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+1397-12-26 07:30:23 +0000  676720 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+1397-12-26 07:30:24 +0000  98312976 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+1397-12-26 07:30:24 +0000  2342528 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1397-12-26 07:30:24 +0000  1987568 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+1397-12-26 07:30:24 +0000  722048 bytes for ./Frameworks/libswiftMetal.dylib
+1397-12-26 07:30:24 +0000  copying file ./Frameworks/libswiftCoreData.dylib ... 
+1397-12-26 07:30:24 +0000  992640 bytes for ./Frameworks/libswiftCoreData.dylib
+1397-12-26 07:30:24 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+1397-12-26 07:30:24 +0000  4229088 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+1397-12-26 07:30:24 +0000  874304 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+1397-12-26 07:30:24 +0000  398016 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+1397-12-26 07:30:24 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+1397-12-26 07:30:24 +0000  1091888 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftContacts.dylib ... 
+1397-12-26 07:30:24 +0000  656464 bytes for ./Frameworks/libswiftContacts.dylib
+1397-12-26 07:30:24 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+1397-12-26 07:30:24 +0000  468000 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+1397-12-26 07:30:24 +0000  42507600 bytes for ./Frameworks/libswiftFoundation.dylib
+1397-12-26 07:30:24 +0000  copying file ./embedded.mobileprovision ... 
+1397-12-26 07:30:24 +0000  7905 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1397-12-26 07:30:24 +0000  1119 bytes for ./Info.plist
+1397-12-26 07:30:24 +0000  copying file ./PkgInfo ... 
+1397-12-26 07:30:24 +0000  8 bytes for ./PkgInfo
+1397-12-26 07:30:24 +0000  /usr/bin/ditto exited with 0
+1397-12-26 07:30:24 +0000  Processing step: IDEDistributionEmbedProfileStep
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7feaef6a50 'com.apple.dt.runtime.swiftContacts' '<DVTFilePath:0x7f7fecd1fdc0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7fee852320 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7feeebca60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7ff0e23650 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f7feeeb1750:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7ff09e0040 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f7ff1902310:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7feaf3ae20 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7ff0d98400:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7ff0dabcf0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f7feeeb2940:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7fe9cd4a20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f7febaef3f0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7fed7cebb0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f7fee809ce0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7fed5f1af0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f7feaf22e40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7feeb93c60 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f7feee94d00:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7ff1b915d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f7feee6cbf0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7fee873620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f7febaef910:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7feee8c600 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f7ff0d9ec60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'>'>
+1397-12-26 07:30:24 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f7ff0d74cf0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f7ff0df5f90:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'>'>
+1397-12-26 07:30:24 +0000  Processing step: IDEDistributionAppThinningPlistStep
+1397-12-26 07:30:24 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+1397-12-26 07:30:24 +0000  Processing step: IDEDistributionCompileBitcodeStep
+1397-12-26 07:30:24 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+1397-12-26 07:30:24 +0000  Processing step: IDEDistributionCodeSlimmingStep
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionSymbolsStep
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionAppThinningStep
+1397-12-26 07:30:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionArchThinningStep
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftContacts.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+1397-12-26 07:30:25 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+1397-12-26 07:30:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/ChatAutomationTestApp' '-verify_arch' 'arm64e'
+1397-12-26 07:30:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+1397-12-26 07:30:25 +0000  Skipping architecture thinning for item "ChatAutomationTestApp" because arch "arm64e" wasn't found
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionODRStep
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionStripXattrsStep
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7feaef6a50 'com.apple.dt.runtime.swiftContacts' '<DVTFilePath:0x7f7fecd1fdc0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7fee852320 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7feeebca60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7ff0e23650 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f7feeeb1750:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7ff09e0040 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f7ff1902310:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7feaf3ae20 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7ff0d98400:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7ff0dabcf0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f7feeeb2940:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7fe9cd4a20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f7febaef3f0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7fed7cebb0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f7fee809ce0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7fed5f1af0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f7feaf22e40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7feeb93c60 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f7feee94d00:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7ff1b915d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f7feee6cbf0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7fee873620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f7febaef910:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7feee8c600 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f7ff0d9ec60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'>'>
+1397-12-26 07:30:25 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f7ff0d74cf0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f7ff0df5f90:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'>'>
+1397-12-26 07:30:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app'
+1397-12-26 07:30:25 +0000  /usr/bin/xattr exited with 0
+1397-12-26 07:30:25 +0000  Processing step: IDEDistributionCodesignStep
+1397-12-26 07:30:25 +0000  Entitlements for <IDEDistributionItem: 0x7f7feaef6a50 'com.apple.dt.runtime.swiftContacts' '<DVTFilePath:0x7f7fecd1fdc0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'>'>: {
+}
+1397-12-26 07:30:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7feaef6a50 'com.apple.dt.runtime.swiftContacts' '<DVTFilePath:0x7f7fecd1fdc0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsUsp57e
+1397-12-26 07:30:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsUsp57e' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib'
+1397-12-26 07:30:25 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftContacts]
+1397-12-26 07:30:25 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:25 +0000  Entitlements for <IDEDistributionItem: 0x7f7fee852320 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7feeebca60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+1397-12-26 07:30:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7fee852320 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f7feeebca60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementseQFB6H
+1397-12-26 07:30:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementseQFB6H' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7ff0e23650 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f7feeeb1750:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7ff0e23650 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7f7feeeb1750:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsEZgDhz
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsEZgDhz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7ff09e0040 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f7ff1902310:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7ff09e0040 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f7ff1902310:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsIw7Rd9
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsIw7Rd9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7feaf3ae20 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7ff0d98400:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7feaf3ae20 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f7ff0d98400:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsQiDQgv
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsQiDQgv' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7ff0dabcf0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f7feeeb2940:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7ff0dabcf0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f7feeeb2940:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementshwrpu9
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementshwrpu9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7fe9cd4a20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f7febaef3f0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7fe9cd4a20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f7febaef3f0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements3ybvHm
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements3ybvHm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib'
+1397-12-26 07:30:26 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+1397-12-26 07:30:26 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:26 +0000  Entitlements for <IDEDistributionItem: 0x7f7fed7cebb0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f7fee809ce0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+1397-12-26 07:30:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7fed7cebb0 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f7fee809ce0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsXI5IAM
+1397-12-26 07:30:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsXI5IAM' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7fed5f1af0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f7feaf22e40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7fed5f1af0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f7feaf22e40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementszl5DQz
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementszl5DQz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7feeb93c60 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f7feee94d00:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7feeb93c60 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f7feee94d00:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsXxRkls
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsXxRkls' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7ff1b915d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f7feee6cbf0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7ff1b915d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f7feee6cbf0:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsJaaE0B
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsJaaE0B' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7fee873620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f7febaef910:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7fee873620 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f7febaef910:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements5NqEFd
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements5NqEFd' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7feee8c600 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f7ff0d9ec60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7feee8c600 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f7ff0d9ec60:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsAD5Gfw
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsAD5Gfw' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7ff0d74cf0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f7ff0df5f90:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'>'>: {
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7ff0d74cf0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f7ff0df5f90:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements1tZW45
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlements1tZW45' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib'
+1397-12-26 07:30:27 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+1397-12-26 07:30:27 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:27 +0000  Entitlements for <IDEDistributionItem: 0x7f7feaf54610 'com.fanapSoft.ChatAutomationTestApplication' '<DVTFilePath:0x7f7fed613c40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app'>'>: {
+    "application-identifier" = "87Y6C8NVU7.com.fanapSoft.ChatAutomationTestApplication";
+    "com.apple.developer.team-identifier" = 87Y6C8NVU7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "87Y6C8NVU7.com.fanapSoft.ChatAutomationTestApplication"
+    );
+}
+1397-12-26 07:30:27 +0000  Writing entitlements for <IDEDistributionItem: 0x7f7feaf54610 'com.fanapSoft.ChatAutomationTestApplication' '<DVTFilePath:0x7f7fed613c40:'/Users/Mahyar/Library/Developer/Xcode/Archives/1397-12-26/ChatAutomationTestApp 12-26-1397 AP, 10.57.xcarchive/Products/Applications/ChatAutomationTestApp.app'>'> to: /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsAEqHdx
+1397-12-26 07:30:27 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1035C5B0C1C1ACB13C065A5DDEDB047E0C10BDD' '--entitlements' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/entitlementsAEqHdx' '--preserve-metadata=identifier,flags,runtime' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app'
+1397-12-26 07:30:28 +0000  /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root/Payload/ChatAutomationTestApp.app: signed app bundle with Mach-O thin (arm64) [com.fanapSoft.ChatAutomationTestApplication]
+1397-12-26 07:30:28 +0000  /usr/bin/codesign exited with 0
+1397-12-26 07:30:28 +0000  Processing step: IDEDistributionZipODRItemStep
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+1397-12-26 07:30:28 +0000  Processing step: IDEDistributionCreateIPAStep
+1397-12-26 07:30:28 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root' '/var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Packages/ChatAutomationTestApp.ipa'
+1397-12-26 07:30:28 +0000  >>> Copying /var/folders/v7/ccn7ydl54jdgrhw118j0km680000gp/T/XcodeDistPipeline.ZVU/Root 
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/_CodeSignature/CodeResources ... 
+1397-12-26 07:30:28 +0000  6553 bytes for ./Payload/ChatAutomationTestApp.app/_CodeSignature/CodeResources
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/ChatAutomationTestApp ... 
+1397-12-26 07:30:28 +0000  247456 bytes for ./Payload/ChatAutomationTestApp.app/ChatAutomationTestApp
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1397-12-26 07:30:28 +0000  1136 bytes for ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+1397-12-26 07:30:28 +0000  832 bytes for ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/ChatAutomationTestApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib ... 
+1397-12-26 07:30:28 +0000  251072 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib ... 
+1397-12-26 07:30:28 +0000  299616 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib ... 
+1397-12-26 07:30:28 +0000  16705936 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCore.dylib
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib ... 
+1397-12-26 07:30:28 +0000  651808 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib ... 
+1397-12-26 07:30:28 +0000  527104 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib ... 
+1397-12-26 07:30:28 +0000  295712 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftMetal.dylib
+1397-12-26 07:30:28 +0000  copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib ... 
+1397-12-26 07:30:28 +0000  352672 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreData.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib ... 
+1397-12-26 07:30:28 +0000  1059216 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib ... 
+1397-12-26 07:30:28 +0000  299952 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftos.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib ... 
+1397-12-26 07:30:28 +0000  250768 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib ... 
+1397-12-26 07:30:28 +0000  402992 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib ... 
+1397-12-26 07:30:28 +0000  295968 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftContacts.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib ... 
+1397-12-26 07:30:28 +0000  255104 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib ... 
+1397-12-26 07:30:29 +0000  8352704 bytes for ./Payload/ChatAutomationTestApp.app/Frameworks/libswiftFoundation.dylib
+1397-12-26 07:30:29 +0000  copying file ./Payload/ChatAutomationTestApp.app/embedded.mobileprovision ... 
+1397-12-26 07:30:29 +0000  7905 bytes for ./Payload/ChatAutomationTestApp.app/embedded.mobileprovision
+1397-12-26 07:30:29 +0000  copying file ./Payload/ChatAutomationTestApp.app/Info.plist ... 
+1397-12-26 07:30:29 +0000  1119 bytes for ./Payload/ChatAutomationTestApp.app/Info.plist
+copying file ./Payload/ChatAutomationTestApp.app/PkgInfo ... 
+8 bytes for ./Payload/ChatAutomationTestApp.app/PkgInfo
+1397-12-26 07:30:29 +0000  /usr/bin/ditto exited with 0
+1397-12-26 07:30:29 +0000  Processing step: IDEDistributionAppStoreInformationStep
+1397-12-26 07:30:29 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+1397-12-26 07:30:29 +0000  Processing step: IDEDistributionCreateManifestStep
